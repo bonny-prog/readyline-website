@@ -4,220 +4,45 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ReadyLine Cabinets Co — Stock Cabinets for Builders | MA · NH · ME · VT</title>
-<meta name="description" content="Wholesale stock cabinets for builders and contractors. 10×10 kitchens from $2,795, in stock and delivered in 5 days across Massachusetts, New Hampshire, Maine and Vermont.">
+<meta name="description" content="Wholesale stock cabinets for builders and contractors across New England. Three full lines — Shaker, Euro frameless, and modular closets — in stock and delivered in 5 days. 10×10 kitchens from $2,795.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..900&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-:root{
-  --ink:#16243B; --ink2:#1E2F4D; --paper:#F6F7F5; --card:#FFFFFF;
-  --line:#D8DDD9; --slate:#5B6573; --accent:#FF7A1A; --accent-d:#E26405;
-  --ok:#1E7F4F;
-  --disp:'Archivo',sans-serif; --body:'Inter',sans-serif; --mono:'IBM Plex Mono',monospace;
-}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.55;font-size:16px}
-img{max-width:100%}
-a{color:inherit}
-.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
-.mono{font-family:var(--mono)}
-.eyebrow{font-family:var(--mono);font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-d);display:flex;align-items:center;gap:10px}
-.eyebrow::after{content:"";flex:0 0 42px;height:1px;background:var(--ink);opacity:.35}
-h1,h2,h3{font-family:var(--disp);font-weight:800;line-height:1.04;letter-spacing:-.015em}
-section{padding:84px 0}
-.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
-.reveal.in{opacity:1;transform:none}
-@media (prefers-reduced-motion: reduce){.reveal{opacity:1;transform:none;transition:none}}
-
-/* ---------- utility bar ---------- */
-.util{background:var(--ink);color:#E9EDF3;font-family:var(--mono);font-size:.74rem;letter-spacing:.06em}
-.util .wrap{display:flex;justify-content:space-between;align-items:center;height:38px}
-.util b{color:var(--accent)}
-.util a{text-decoration:none}
-@media(max-width:640px){.util .right{display:none}}
-
-/* ---------- nav ---------- */
-nav{position:sticky;top:0;z-index:50;background:rgba(246,247,245,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
-nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
-.logo{font-family:var(--disp);font-weight:900;font-stretch:115%;font-size:1.3rem;letter-spacing:-.01em;text-decoration:none;display:flex;align-items:center;gap:8px}
-.logo .tick{width:14px;height:14px;background:var(--accent);clip-path:polygon(0 0,100% 0,100% 100%)}
-.logo span{color:var(--slate);font-weight:500;font-stretch:100%;font-size:.78rem;letter-spacing:.12em;margin-left:2px}
-.navlinks{display:flex;gap:30px;align-items:center}
-.navlinks a{text-decoration:none;font-size:.92rem;font-weight:500;color:var(--ink2)}
-.navlinks a:hover{color:var(--accent-d)}
-.btn{display:inline-block;font-family:var(--disp);font-weight:700;font-size:.95rem;letter-spacing:.01em;text-decoration:none;border:none;cursor:pointer;padding:14px 26px;transition:transform .15s ease,box-shadow .15s ease}
-.btn-orange{background:var(--accent);color:#1A1206}
-.btn-orange:hover{background:var(--accent-d);color:#fff;transform:translateY(-1px)}
-.btn-ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 2px var(--ink)}
-.btn-ghost:hover{background:var(--ink);color:#fff}
-.btn-sm{padding:10px 18px;font-size:.85rem}
-@media(max-width:880px){.navlinks a:not(.btn){display:none}}
-
-/* ---------- hero ---------- */
-.hero{padding:88px 0 96px;background:
-  linear-gradient(180deg,var(--paper) 0%,#EFF1EE 100%)}
-.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:56px;align-items:center}
-.hero h1{font-size:clamp(2.5rem,5.2vw,4.1rem);font-stretch:108%}
-.hero h1 .price{color:var(--accent-d);white-space:nowrap}
-.hero p.lede{margin:22px 0 30px;font-size:1.12rem;color:var(--slate);max-width:34rem}
-.hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
-.hero .states{margin-top:34px;font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;color:var(--slate)}
-.hero .states b{color:var(--ink)}
-
-/* pallet tag */
-.tag{background:var(--card);border:1px solid var(--line);box-shadow:0 18px 50px rgba(22,36,59,.13);position:relative;font-family:var(--mono);transform:rotate(.6deg)}
-.tag::before{content:"";position:absolute;top:18px;left:50%;transform:translateX(-50%);width:46px;height:14px;border-radius:8px;background:var(--paper);border:1px solid var(--line)}
-.tag .head{padding:44px 28px 14px;border-bottom:1px dashed var(--line);display:flex;justify-content:space-between;align-items:flex-end}
-.tag .head .lot{font-size:.68rem;letter-spacing:.14em;color:var(--slate)}
-.tag .head .sku{font-weight:600;font-size:.8rem}
-.tag .bodyrows{padding:18px 28px;font-size:.82rem}
-.tag .row{display:flex;justify-content:space-between;padding:7px 0;border-bottom:1px solid #EEF0ED}
-.tag .row span:last-child{font-weight:600}
-.tag .total{padding:20px 28px 26px;display:flex;justify-content:space-between;align-items:baseline;background:var(--ink);color:#fff}
-.tag .total .lbl{font-size:.7rem;letter-spacing:.14em;color:#9FB0C6}
-.tag .total .amt{font-family:var(--disp);font-weight:900;font-size:2.3rem;letter-spacing:-.02em}
-.tag .total .amt small{font-family:var(--mono);font-size:.72rem;font-weight:400;color:var(--accent);display:block;text-align:right;letter-spacing:.08em}
-@media(max-width:880px){.hero .wrap{grid-template-columns:1fr}.tag{transform:none;max-width:430px}}
-
-/* ---------- trust strip ---------- */
-.strip{background:var(--ink);color:#fff;padding:0}
-.strip .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
-.strip .cell{padding:26px 22px;border-left:1px solid rgba(255,255,255,.12)}
-.strip .cell:first-child{border-left:none}
-.strip .num{font-family:var(--disp);font-weight:800;font-size:1.5rem;color:var(--accent)}
-.strip .cap{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;color:#ADBACB;text-transform:uppercase;margin-top:4px}
-@media(max-width:880px){.strip .wrap{grid-template-columns:repeat(2,1fr)}.strip .cell:nth-child(3){border-left:none}}
-
-/* ---------- lines ---------- */
-.sec-head{max-width:46rem;margin-bottom:46px}
-.sec-head h2{font-size:clamp(1.9rem,3.4vw,2.7rem);margin:14px 0 12px}
-.sec-head p{color:var(--slate);font-size:1.05rem}
-.lines{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-.linecard{background:var(--card);border:1px solid var(--line);display:flex;flex-direction:column;transition:transform .18s ease,box-shadow .18s ease}
-.linecard:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(22,36,59,.10)}
-.lc-band{height:8px}
-.lc-pad{padding:26px 26px 28px;display:flex;flex-direction:column;flex:1}
-.lc-code{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;color:var(--slate)}
-.linecard h3{font-size:1.45rem;margin:8px 0 10px;font-stretch:106%}
-.linecard p{font-size:.92rem;color:var(--slate);flex:0}
-.specs{margin:18px 0 6px;font-family:var(--mono);font-size:.76rem}
-.specs div{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #EEF0ED}
-.specs div span:last-child{font-weight:600;color:var(--ink)}
-.fin-lbl{font-family:var(--mono);font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--slate);margin:16px 0 8px}
-.swatches{display:flex;gap:8px;flex-wrap:wrap}
-.sw{width:34px;height:34px;border-radius:3px;border:1px solid rgba(22,36,59,.18);position:relative;cursor:default}
-.sw[data-n]:hover::after{content:attr(data-n);position:absolute;bottom:42px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;font-family:var(--mono);font-size:.64rem;padding:4px 8px;white-space:nowrap;z-index:5}
-.lc-foot{margin-top:auto;padding-top:22px;display:flex;justify-content:space-between;align-items:center}
-.lc-from{font-family:var(--mono);font-size:.74rem;color:var(--slate)}
-.lc-from b{display:block;font-family:var(--disp);font-size:1.35rem;color:var(--ink);letter-spacing:-.01em}
-@media(max-width:980px){.lines{grid-template-columns:1fr;max-width:520px}}
-
-/* ---------- compare ---------- */
-.compare{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-table.cmp{width:100%;border-collapse:collapse;font-size:.92rem;background:var(--card)}
-.cmp th,.cmp td{padding:15px 16px;text-align:left;border-bottom:1px solid var(--line)}
-.cmp thead th{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);border-bottom:2px solid var(--ink)}
-.cmp .rl{background:#FFF4EA;border-left:3px solid var(--accent);font-weight:600}
-.cmp td.y{color:var(--ok);font-weight:600}
-.cmp td.n{color:#B23B3B}
-.cmp-scroll{overflow-x:auto}
-
-/* ---------- steps ---------- */
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
-.step{border-top:3px solid var(--ink);padding-top:18px}
-.step .k{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;color:var(--accent-d);font-weight:600}
-.step h3{font-size:1.12rem;margin:8px 0 8px}
-.step p{font-size:.9rem;color:var(--slate)}
-@media(max-width:880px){.steps{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:560px){.steps{grid-template-columns:1fr}}
-
-/* ---------- service area ---------- */
-.area{background:var(--ink);color:#fff}
-.area .eyebrow{color:var(--accent)}
-.area .eyebrow::after{background:#fff;opacity:.3}
-.area .sec-head p{color:#ADBACB}
-.stgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
-.st{border:1px solid rgba(255,255,255,.16);padding:24px 22px}
-.st .ab{font-family:var(--disp);font-weight:900;font-size:2rem;color:var(--accent)}
-.st .nm{font-weight:600;margin:2px 0 10px}
-.st .dt{font-family:var(--mono);font-size:.74rem;color:#ADBACB;line-height:1.7}
-@media(max-width:880px){.stgrid{grid-template-columns:repeat(2,1fr)}}
-
-/* ---------- cta band ---------- */
-.band{background:var(--accent);color:#1A1206}
-.band .wrap{display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap}
-.band h2{font-size:clamp(1.6rem,3vw,2.3rem)}
-.band p{font-weight:500}
-.band .btn{background:var(--ink);color:#fff}
-.band .btn:hover{background:#0D1626}
-
-/* ---------- footer ---------- */
-footer{background:#0F1A2C;color:#8FA0B6;padding:54px 0 40px;font-size:.88rem}
-footer .wrap{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:34px}
-footer .logo{color:#fff}
-footer h4{color:#fff;font-size:.8rem;font-family:var(--mono);letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
-footer a{display:block;text-decoration:none;margin:7px 0}
-footer a:hover{color:var(--accent)}
-.foot-note{border-top:1px solid rgba(255,255,255,.1);margin-top:40px;padding-top:20px;font-family:var(--mono);font-size:.7rem;letter-spacing:.06em}
-@media(max-width:880px){footer .wrap{grid-template-columns:1fr 1fr}}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="util">
   <div class="wrap">
     <div>SERVING <b>MA · NH · ME · VT</b> — 5-DAY DELIVERY IN CORE RADIUS</div>
-    <div class="right"><a href="tel:+19785550140">TRADE DESK: (978) 555-0140</a></div>
+    <div class="right mono"><a href="tel:+19785550140">TRADE DESK: (978) 555-0140</a></div>
   </div>
 </div>
 
 <nav>
   <div class="wrap">
-    <a class="logo" href="#"><span class="tick"></span>READYLINE<span>CABINETS CO</span></a>
+    <a class="logo" href="index.html"><span class="tick"></span>READYLINE<span>CABINETS CO</span></a>
     <div class="navlinks">
-      <a href="#lines">Lines</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#how">Trade Program</a>
-      <a href="#area">Service Area</a>
-      <a class="btn btn-orange btn-sm" href="#trade">Open trade account</a>
+      <a href="shaker.html">Shaker</a>
+      <a href="euro.html">Euro</a>
+      <a href="closet.html">Closet</a>
+      <a href="trade.html">Trade Program</a>
+      <a class="btn btn-orange btn-sm" href="trade.html#account">Open trade account</a>
     </div>
   </div>
 </nav>
 
-<header class="hero">
+<header class="hero tall">
+  <div class="bg"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3DdZ4EmGZwOFrPqo15FUIRkdeqv/hf_20260612_070051_0a064649-205c-4610-aad9-6a54bed9d961_min.webp" alt="Modern New England kitchen with white shaker cabinets"></div>
   <div class="wrap">
-    <div>
-      <div class="eyebrow">Wholesale · Trade Only · New England</div>
-      <h1>The 10×10 kitchen.<br><span class="price">$2,795.</span><br>In stock. Delivered this week.</h1>
-      <p class="lede">ReadyLine stocks three full cabinet lines in Central Massachusetts and delivers to your jobsite in 5 business days. Published builder pricing. One rep, one call, zero quote games.</p>
-      <div class="ctas">
-        <a class="btn btn-orange" href="#trade">Open a trade account</a>
-        <a class="btn btn-ghost" href="#pricing">See builder pricing</a>
-      </div>
-      <div class="states">DELIVERING ACROSS <b>MASSACHUSETTS · NEW HAMPSHIRE · MAINE · VERMONT</b></div>
+    <div class="eyebrow light">Wholesale · Trade Only · New England</div>
+    <h1>The 10×10 kitchen.<br><span class="price">$2,795.</span> In stock.<br>Delivered this week.</h1>
+    <p class="lede">ReadyLine stocks three full cabinet lines in Central Massachusetts and delivers to your jobsite in five business days. Published builder pricing. One rep, one call, zero quote games.</p>
+    <div class="ctas">
+      <a class="btn btn-orange" href="#lines">Browse the lines</a>
+      <a class="btn btn-ghost light" href="trade.html#account">Open a trade account</a>
     </div>
-
-    <aside class="tag" aria-label="10x10 kitchen price tag">
-      <div class="head">
-        <div>
-          <div class="lot">JOB LOT / KITCHEN PKG</div>
-          <div class="sku">RL-SHK-10X10 · WHITE SHAKER</div>
-        </div>
-        <div class="lot">QTY 12 CAB</div>
-      </div>
-      <div class="bodyrows">
-        <div class="row"><span>Wall cabinets W3030 ×2 · W1530 ×2 · W3015 · W2430</span><span>6</span></div>
-        <div class="row"><span>Sink base SB36 · bases B12/B18/B24/B30</span><span>5</span></div>
-        <div class="row"><span>Three-drawer base 3DB18, soft-close</span><span>1</span></div>
-        <div class="row"><span>Plywood case · dovetail drawers · soft-close std.</span><span>—</span></div>
-        <div class="row"><span>Lead time, stocked finishes</span><span>5 days</span></div>
-      </div>
-      <div class="total">
-        <div class="lbl">BUILDER PRICE</div>
-        <div class="amt">$2,795<small>RTA · ASSEMBLED AVAILABLE</small></div>
-      </div>
-    </aside>
+    <div class="states">DELIVERING ACROSS <b>MASSACHUSETTS · NEW HAMPSHIRE · MAINE · VERMONT</b></div>
   </div>
 </header>
 
@@ -225,7 +50,7 @@ footer a:hover{color:var(--accent)}
   <div class="wrap">
     <div class="cell"><div class="num">5 days</div><div class="cap">Jobsite delivery, core radius</div></div>
     <div class="cell"><div class="num">3 lines</div><div class="cap">13 finishes · 1,100+ SKUs</div></div>
-    <div class="cell"><div class="num">Published</div><div class="cap">Trade pricing, no quote games</div></div>
+    <div class="cell"><div class="num">Published</div><div class="cap">Builder pricing, no quote games</div></div>
     <div class="cell"><div class="num">48 hrs</div><div class="cap">Damaged-part replacement</div></div>
   </div>
 </div>
@@ -239,95 +64,84 @@ footer a:hover{color:var(--accent)}
     </div>
     <div class="lines">
 
-      <article class="linecard reveal">
-        <div class="lc-band" style="background:var(--ink)"></div>
+      <a class="linecard reveal" href="shaker.html">
+        <div class="pic"><span class="band" style="background:var(--ink)"></span><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3DdZ4EmGZwOFrPqo15FUIRkdeqv/hf_20260612_070105_70d6ec58-5614-4452-97a3-c5f49c88b384_min.webp" alt="White shaker cabinet detail"></div>
         <div class="lc-pad">
           <div class="lc-code">RL-SHK · ALL-WOOD SERIES</div>
           <h3>ReadyLine Shaker</h3>
-          <p>The production workhorse. Plywood case, hardwood frame, dovetail drawers, soft-close everything. The door style on 7 of 10 New England spec sheets.</p>
-          <div class="specs">
-            <div><span>Construction</span><span>Plywood, L-bracket reinforced</span></div>
-            <div><span>Drawers</span><span>Dovetail · soft-close</span></div>
-            <div><span>SKUs</span><span>400+ per finish</span></div>
-            <div><span>Build</span><span>RTA or assembled</span></div>
-          </div>
-          <div class="fin-lbl">5 stocked finishes</div>
-          <div class="swatches">
-            <div class="sw" data-n="White Shaker" style="background:#F4F4F0"></div>
-            <div class="sw" data-n="Gray Shaker" style="background:#9DA2A3"></div>
-            <div class="sw" data-n="Modern Slate" style="background:#6E7478"></div>
-            <div class="sw" data-n="Onyx Black" style="background:#1C1C1E"></div>
-            <div class="sw" data-n="Signature Blue" style="background:#2E4A66"></div>
-          </div>
-          <div class="lc-foot">
-            <div class="lc-from">10×10 FROM<b>$2,795</b></div>
-            <a class="btn btn-ghost btn-sm" href="#trade">Line cut-sheet</a>
-          </div>
+          <p>The production workhorse. Plywood case, hardwood frame, dovetail drawers, soft-close everything — the door style on 7 of 10 New England spec sheets.</p>
+          <div class="lc-foot"><div class="lc-from">10×10 FROM<b>$2,795</b></div><span class="btn btn-ghost btn-sm">View line →</span></div>
         </div>
-      </article>
+      </a>
 
-      <article class="linecard reveal">
-        <div class="lc-band" style="background:var(--accent)"></div>
+      <a class="linecard reveal" href="euro.html">
+        <div class="pic"><span class="band" style="background:var(--accent)"></span><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3DdZ4EmGZwOFrPqo15FUIRkdeqv/hf_20260612_070109_b2777bce-3a72-4df3-bc64-5500ad421192_min.webp" alt="Modern frameless European kitchen"></div>
         <div class="lc-pad">
           <div class="lc-code">RL-EUR · FRAMELESS SERIES</div>
           <h3>ReadyLine Euro</h3>
-          <p>Full-access frameless for modern and multi-family work. PET matte and gloss doors, woodgrain melamines, metal drawer boxes — maximum storage per opening.</p>
-          <div class="specs">
-            <div><span>Construction</span><span>¾" frameless, dowel + screw</span></div>
-            <div><span>Doors</span><span>PET / melamine, laser-edged</span></div>
-            <div><span>Program</span><span>Walls · bases · talls · vanities</span></div>
-            <div><span>Build</span><span>RTA or assembled</span></div>
-          </div>
-          <div class="fin-lbl">5 stocked finishes</div>
-          <div class="swatches">
-            <div class="sw" data-n="Frost White (matte)" style="background:#F2F2EF"></div>
-            <div class="sw" data-n="Glacial White (gloss)" style="background:linear-gradient(135deg,#FFFFFF 0%,#E9EBE9 55%,#FFFFFF 100%)"></div>
-            <div class="sw" data-n="Stone Grey" style="background:#8E9092"></div>
-            <div class="sw" data-n="Natural Walnut" style="background:linear-gradient(160deg,#8A5F3C,#6F4A2D)"></div>
-            <div class="sw" data-n="White Oak" style="background:linear-gradient(160deg,#C9A87C,#B89366)"></div>
-          </div>
-          <div class="lc-foot">
-            <div class="lc-from">10×10 FROM<b>$2,895</b></div>
-            <a class="btn btn-ghost btn-sm" href="#trade">Line cut-sheet</a>
-          </div>
+          <p>Full-access frameless for modern and multi-family work. PET and melamine doors, metal drawer boxes, maximum storage per opening.</p>
+          <div class="lc-foot"><div class="lc-from">10×10 FROM<b>$2,895</b></div><span class="btn btn-ghost btn-sm">View line →</span></div>
         </div>
-      </article>
+      </a>
 
-      <article class="linecard reveal">
-        <div class="lc-band" style="background:var(--slate)"></div>
+      <a class="linecard reveal" href="closet.html">
+        <div class="pic"><span class="band" style="background:var(--slate)"></span><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3DdZ4EmGZwOFrPqo15FUIRkdeqv/hf_20260612_070112_8db4b032-3765-4458-83e4-aecc714e0116_min.webp" alt="Modular closet system"></div>
         <div class="lc-pad">
           <div class="lc-code">RL-CLO · CLOSET SYSTEMS</div>
           <h3>ReadyLine Closet</h3>
-          <p>Modular 84" closet towers and pre-configured kits — hang rods, shoe shelves, drawer stacks, LED options. The attachment sale on every unit you build.</p>
-          <div class="specs">
-            <div><span>Units</span><span>Shallow 15⅝" · deep 24" · corner</span></div>
-            <div><span>Kits</span><span>F-02 → F-08 configurations</span></div>
-            <div><span>Options</span><span>LED · glass doors · baskets</span></div>
-            <div><span>Build</span><span>RTA or assembled</span></div>
-          </div>
-          <div class="fin-lbl">3 stocked finishes</div>
-          <div class="swatches">
-            <div class="sw" data-n="Beachwood" style="background:linear-gradient(160deg,#C9B393,#B49C7C)"></div>
-            <div class="sw" data-n="Ice" style="background:#EDEFF0"></div>
-            <div class="sw" data-n="Smokewood" style="background:linear-gradient(160deg,#6B5A4E,#544539)"></div>
-          </div>
-          <div class="lc-foot">
-            <div class="lc-from">REACH-IN FROM<b>$495</b></div>
-            <a class="btn btn-ghost btn-sm" href="#trade">Line cut-sheet</a>
-          </div>
+          <p>Modular 84″ towers and pre-configured kits — hang rods, shoe shelves, drawer stacks, LED options. The attachment sale on every unit you build.</p>
+          <div class="lc-foot"><div class="lc-from">REACH-IN FROM<b>$495</b></div><span class="btn btn-ghost btn-sm">View line →</span></div>
         </div>
-      </article>
+      </a>
 
     </div>
   </div>
 </section>
 
-<section class="compare" id="pricing">
+<section style="background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="split">
+      <div class="txt">
+        <div class="eyebrow">Why builders switch</div>
+        <h2>In stock, builder-priced, delivered this week.</h2>
+        <p>Big-box special orders run three to six weeks. Online RTA ships damaged with no service. Local dealers cost two to three times as much. ReadyLine is the only one that does all three things builders actually need — at once.</p>
+        <ul>
+          <li><span>Lead time, stocked finishes</span><span>5 business days</span></li>
+          <li><span>Published builder price book</span><span>No quote games</span></li>
+          <li><span>Damaged-part replacement</span><span>Shipped in 48 hours</span></li>
+          <li><span>Dedicated account rep</span><span>Cell-phone access</span></li>
+          <li><span>Build options</span><span>RTA or assembled</span></li>
+        </ul>
+        <a class="btn btn-orange" href="trade.html#account">Open a trade account</a>
+      </div>
+      <div class="pic"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3DdZ4EmGZwOFrPqo15FUIRkdeqv/hf_20260612_071254_918803df-6024-4a9b-b06d-b3082f75f690_min.webp" alt="ReadyLine cabinets staged for jobsite delivery"></div>
+    </div>
+  </div>
+</section>
+
+<section class="callout" style="padding:0">
+  <div class="bg"><img src="https://d8j0ntlcm91z4.cloudfront.net/user_3DdZ4EmGZwOFrPqo15FUIRkdeqv/hf_20260612_070122_a1b3f3cf-64dc-41ea-ae52-fe2a4552c727_min.webp" alt="ReadyLine cabinet distribution warehouse"></div>
+  <div class="wrap" style="padding:84px 24px">
+    <div>
+      <div class="eyebrow light">Local Inventory</div>
+      <h2>We carry the inventory so your schedule never waits on a factory.</h2>
+      <p>ReadyLine stocks the top-moving SKUs across two core finishes in our Central Massachusetts hub, with weekly factory replenishment behind it. You order against what's on the floor — not a six-week production queue three time zones away.</p>
+    </div>
+    <div class="nums">
+      <div><div class="n">Central MA</div><div class="l">Stocked distribution hub</div></div>
+      <div><div class="n">Weekly</div><div class="l">Factory replenishment</div></div>
+      <div><div class="n">1,100+</div><div class="l">SKUs across three lines</div></div>
+      <div><div class="n">90 min</div><div class="l">To most of the core radius</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
   <div class="wrap">
     <div class="sec-head reveal">
       <div class="eyebrow">Builder Math</div>
       <h2>Same kitchen. Three ways to buy it.</h2>
-      <p>Benchmark: a standard 12-cabinet 10×10 white shaker package, June 2026 market.</p>
+      <p>Benchmark: a standard 12-cabinet 10×10 white shaker package, 2026 market.</p>
     </div>
     <div class="cmp-scroll reveal">
       <table class="cmp">
@@ -337,8 +151,8 @@ footer a:hover{color:var(--accent)}
         <tbody>
           <tr><td>10×10 white shaker package</td><td class="rl">$2,795</td><td>$2,158 – $3,599</td><td>$4,000 – $6,500+</td></tr>
           <tr><td>Local stock, will-call pickup</td><td class="rl y">Yes — Central MA</td><td class="n">No</td><td class="y">Sometimes</td></tr>
-          <tr><td>Jobsite delivery</td><td class="rl y">5 business days</td><td class="n">LTL freight, curbside, 1–3 wks</td><td>2–6 weeks</td></tr>
-          <tr><td>Damaged part replacement</td><td class="rl y">48-hour ship</td><td class="n">Claim process, weeks</td><td class="y">Yes</td></tr>
+          <tr><td>Jobsite delivery</td><td class="rl y">5 business days</td><td class="n">LTL freight, 1–3 wks</td><td>2–6 weeks</td></tr>
+          <tr><td>Damaged-part replacement</td><td class="rl y">48-hour ship</td><td class="n">Claim process, weeks</td><td class="y">Yes</td></tr>
           <tr><td>Dedicated account rep</td><td class="rl y">Yes — cell access</td><td class="n">Call center</td><td class="y">Yes</td></tr>
           <tr><td>Published trade pricing</td><td class="rl y">Yes</td><td class="y">Yes</td><td class="n">Quote by project</td></tr>
         </tbody>
@@ -347,78 +161,63 @@ footer a:hover{color:var(--accent)}
   </div>
 </section>
 
-<section id="how">
+<section class="area">
   <div class="wrap">
     <div class="sec-head reveal">
-      <div class="eyebrow">Trade Program</div>
-      <h2>From plans to jobsite in four moves.</h2>
-    </div>
-    <div class="steps">
-      <div class="step reveal"><div class="k">STEP 01</div><h3>Open your account</h3><p>Five-minute application. Contractor license or business docs. Net terms available after 90 days of history.</p></div>
-      <div class="step reveal"><div class="k">STEP 02</div><h3>Send the plans</h3><p>PDF, sketch, or 2020 Design file. Your rep takes it from there — measurements verified before anything ships.</p></div>
-      <div class="step reveal"><div class="k">STEP 03</div><h3>Quote in 24 hours</h3><p>Line-item pricing against the published builder book. What we quote is what you pay.</p></div>
-      <div class="step reveal"><div class="k">STEP 04</div><h3>Delivered in 5 days</h3><p>Stocked finishes ship from our Central MA warehouse to your jobsite. RTA or assembled, banded and labeled by room.</p></div>
-    </div>
-  </div>
-</section>
-
-<section class="area" id="area">
-  <div class="wrap">
-    <div class="sec-head reveal">
-      <div class="eyebrow">Service Area</div>
+      <div class="eyebrow light">Service Area</div>
       <h2>Built for northern New England.</h2>
-      <p>Four states, one stocked hub, scheduled weekly routes. ~27,500 homes are permitted across this territory every year — and nobody owns the in-stock builder position. We will.</p>
+      <p>Four states, one stocked hub, scheduled weekly routes. Around 27,500 homes are permitted across this territory every year — and nobody owns the in-stock builder position. We will.</p>
     </div>
     <div class="stgrid">
-      <div class="st reveal"><div class="ab">MA</div><div class="nm">Massachusetts</div><div class="dt">~14,000 permits/yr<br>Hub state — same-week delivery<br>Boston · MetroWest · Worcester</div></div>
-      <div class="st reveal"><div class="ab">NH</div><div class="nm">New Hampshire</div><div class="dt">~4,900 permits/yr<br>Core radius, 5-day delivery<br>Nashua · Manchester · Seacoast</div></div>
-      <div class="st reveal"><div class="ab">ME</div><div class="nm">Maine</div><div class="dt">6,034 permits/yr — #1 per capita in New England<br>Weekly route: Portland → Bangor</div></div>
-      <div class="st reveal"><div class="ab">VT</div><div class="nm">Vermont</div><div class="dt">~2,650 permits/yr<br>Scheduled weekly route<br>Burlington · Rutland corridor</div></div>
+      <div class="st reveal"><div class="ab">MA</div><div class="nm">Massachusetts</div><div class="dt">Hub state — same-week delivery<br>Boston · MetroWest · Worcester</div></div>
+      <div class="st reveal"><div class="ab">NH</div><div class="nm">New Hampshire</div><div class="dt">Core radius, 5-day delivery<br>Nashua · Manchester · Seacoast</div></div>
+      <div class="st reveal"><div class="ab">ME</div><div class="nm">Maine</div><div class="dt">Weekly scheduled route<br>Portland → Bangor corridor</div></div>
+      <div class="st reveal"><div class="ab">VT</div><div class="nm">Vermont</div><div class="dt">Weekly scheduled route<br>Burlington · Rutland corridor</div></div>
     </div>
   </div>
 </section>
 
-<section class="band" id="trade">
+<section class="band">
   <div class="wrap">
     <div>
       <h2>Stop waiting six weeks for cabinets.</h2>
       <p>Open a ReadyLine trade account today — first delivery free inside the core radius.</p>
     </div>
-    <a class="btn" href="mailto:trade@readylinecabinets.com">Open trade account →</a>
+    <a class="btn" href="trade.html#account">Open trade account →</a>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
     <div>
-      <a class="logo" href="#"><span class="tick"></span>READYLINE<span style="color:#8FA0B6">CABINETS CO</span></a>
+      <a class="logo" href="index.html"><span class="tick"></span>READYLINE<span style="color:#8FA0B6">CABINETS CO</span></a>
       <p style="margin-top:14px;max-width:30rem">Stock cabinets for builders. Priced to win. Stocked to deliver. Wholesale trade distribution serving Massachusetts, New Hampshire, Maine, and Vermont.</p>
     </div>
     <div>
       <h4>Lines</h4>
-      <a href="#lines">ReadyLine Shaker</a>
-      <a href="#lines">ReadyLine Euro</a>
-      <a href="#lines">ReadyLine Closet</a>
+      <a href="shaker.html">ReadyLine Shaker</a>
+      <a href="euro.html">ReadyLine Euro</a>
+      <a href="closet.html">ReadyLine Closet</a>
     </div>
     <div>
       <h4>Trade</h4>
-      <a href="#trade">Open an account</a>
-      <a href="#pricing">Builder pricing</a>
-      <a href="#how">How it works</a>
+      <a href="trade.html#account">Open an account</a>
+      <a href="trade.html#catalogs">Catalogs &amp; downloads</a>
+      <a href="trade.html#how">How it works</a>
     </div>
     <div>
       <h4>Contact</h4>
       <a href="tel:+19785550140">(978) 555-0140</a>
       <a href="mailto:trade@readylinecabinets.com">trade@readylinecabinets.com</a>
-      <a href="#area">Central MA warehouse</a>
+      <a href="trade.html#contact">Central MA warehouse</a>
     </div>
   </div>
   <div class="wrap foot-note">© 2026 READYLINE CABINETS CO · WHOLESALE TO THE TRADE ONLY · PRICING SUBJECT TO PUBLISHED BUILDER BOOK</div>
 </footer>
 
 <script>
-const io = new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
 document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 </script>
 </body>
-  </html>
+</html>
